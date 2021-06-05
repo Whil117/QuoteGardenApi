@@ -18,7 +18,7 @@ export const Search = styled.input`
            width: 159px;
        }
        @media (max-width:468px){
-           width: 120px;
+           width: 135px;
        }
        @media (max-width:358px){
            width: 70px;
