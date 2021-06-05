@@ -16,10 +16,13 @@ const Card = styled.div`
     box-sizing: border-box;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    margin: 10px;
+    margin: 5px;
     font-family: Roboto;
     h2{
         color: #105EDD;
+    }
+    @media (max-wid:414px){
+        width: 179px;
     }
 `
 

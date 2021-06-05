@@ -14,16 +14,16 @@ export const Search = styled.input`
        @media (max-width:611px){
         width: 216px;
        }
-       /* @media (max-width:513px){
-           width: 142px;
-       } */
        @media (max-width:530px){
-     
            width: 159px;
        }
        @media (max-width:468px){
-           width: 80px;
+           width: 120px;
        }
+       @media (max-width:358px){
+           width: 70px;
+       }
+
 `
 export const BarNav = styled.div`
         display: flex;
